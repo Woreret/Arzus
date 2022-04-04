@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+body {
+    background: #00132d;
+    background-image: url(Pict/Arzus.svg);
+}
+/* Флексовая таблица */
+.cashback{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(145deg, #3fa9f1, #e310fceb);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Open Sans, sans-serif;
+    font-size: 2.50rem;
+    font-weight: 300;
+  font-stretch: 100%;
+  font-display: swap;
+  
+}
+.six_icon{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ian{
+    display: flex;
+    flex-direction: row;
+}
+.yan{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2rem;
+    margin-top: 6rem;
+}
+.first_icon{
+    margin: 0 25px;
+}
+.second_icon{
+    margin: 9px 25px;
+}
+.third_icon{
+    margin: 11px 25px;
+}
+.fourth_icon{
+    margin: 0 5rem;
+    margin-right: 2rem;
+}
+.fiveth_icon{
+    margin: 8px 3rem;
+    margin-right: 4rem;
+}
+.sixth_icon{
+    margin: -4px 3rem;
+    margin-left: 0rem;
+}
+/* Реклама */
+.bonus_title{
+    background-image: linear-gradient(145deg, #3fa9f1, #e310fceb);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Gilroy, sans-serif;
+    font-size: 1.75rem;
+}
+.bonus_p{
+    color: #ffffff;
+    font-size: 32px;
+    font-family: 'Open Sans',Arial,sans-serif;
+    line-height: 1.55;
+    max-width: 555px;
+
+}
+.bonus{
+    display: flex;
+   flex-direction: row-reverse;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20%;
+
+}
+.phone{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.bonus_p .bonus_title{
+    display: flex;
+    float: left;
+}
+.bonus_text{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 6rem 0 0;
+}
+/* Текст и кнопка */
+.gamer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+.gamer_title{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-family: 'Open Sans',Arial,sans-serif;
+    text-align: center;
+}
+.gamer_button button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     font-size: 25px;
+    font-family: 'Open Sans',Arial,sans-serif;
+    color: white;
+    border: none;
+    background-image: linear-gradient(145deg, #3fa9f1, #e310fceb);
+    background-size: 100%;
+    border-radius: 50px;
+    width: 300px;
+    height: 50px;
+}
+/* Footer */
+
+.foot{
+    color: #FFFFFF;
+
+}
+.foot a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.copy{
+    line-height: 3em;
+}
+.info {
+    line-height: 0.5em;
+}
+.foot{
+    margin: 10rem 0 0 5rem;
+}
+
+.waitlist{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 5rem;
+    
+}
+.join{
+    display: flex;
+    justify-content: center;
+}
+.join button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: Roboto , sans-serif;
+    color: white;
+    border: none;
+    background-image: linear-gradient(145deg, #3fa9f1, #e310fceb);
+    background-size: 100%;
+    border-radius: 50px;
+    width: 390px;
+    height: 60px;
+}
+.acc{
+    display: flex;
+    white-space: nowrap;
+    font-family: Poppins, sans-serif;
+    font-size: 64px;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+.acc_text{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.left_img{
+    margin-top: 13rem;
+    margin-right: 20%;
+
+}
+.right_img{
+    margin-right: 6rem;
+}
