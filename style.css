@@ -201,3 +201,8 @@ body {
 .right_img{
     margin-right: 6rem;
 }
+.rule{
+    display: flex;
+    justify-content: center;
+    margin-left: 9rem;
+}
